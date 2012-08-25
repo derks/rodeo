@@ -1,0 +1,2 @@
+pystache
+-e git+https://github.com/erikrose/blessings.git#egg=blessings

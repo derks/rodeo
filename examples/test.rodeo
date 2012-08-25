@@ -1,0 +1,19 @@
+
+This is a [r:red]Rodeo Template[/r] example.  It is a [r:green]mashup[/r] of
+[r:cyan]pyStache[/r] and [r:cyan]Blessings[/r].
+
+The markup is loosely coupled to Blessings.  You can do things like:
+
+    * Make [r:blue]text[/r] [r:green]more[/r] [r:yellow]colorful[/r]
+    * [r:underline]Underline[/r] and [r:bold]Bold[/r]
+    * You can [r:reverse]reverse[/r] the background/foreground
+    * Add [r:italic]italics[/r]
+    * Or make text [r:standout]standout[/r]
+    * You can even [r:bold,red,underline]combine multiple features[/r]
+    * [r:shadow]Etc...[/r]
+
+You can iterate over data:
+
+{{#people}}
+    * Hello [r:green]{{first_name}} {{last_name}}[/r].
+{{/people}}
