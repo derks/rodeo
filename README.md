@@ -2,14 +2,15 @@ Rodeo Templates
 ===============
 
 Rodeo Templates are a mashup of Mustache Templates, with markup using the 
-Blessings module.
+Blessings module.  This project is a proof of concept, and the code is less
+than stellar.  I will revamp everything if people actually use this.
 
-    * pyStache: https://github.com/defunkt/pystache
-    * Blessings: https://github.com/erikrose/blessings
+ * pyStache: https://github.com/defunkt/pystache
+ * Blessings: https://github.com/erikrose/blessings
 
 The official source is here:
 
-    * http://github.com/derks/rodeo
+ * http://github.com/derks/rodeo
     
 Examples:
 
